@@ -2,6 +2,12 @@
 
 All notable changes to the "Modern Dark Pro for JetBrains" theme will be documented in this file.
 
+## [1.1.0] - 2026-07-03
+
+### Added
+- Modern Dark Pro - Dracula variant inspired by the official Dracula Theme
+- Updated documentation and color palette specifications across the project
+
 ## [1.0.0] - 2026-04-10
 
 ### Added
@@ -42,9 +48,22 @@ All notable changes to the "Modern Dark Pro for JetBrains" theme will be documen
 - **Muted Red**: `#da3633`
 - **Muted Purple**: `#6e40aa`
 
+### Modern Dark Pro - Dracula
+- **Primary Background**: `#282a36`
+- **Primary Foreground**: `#f8f8f2`
+- **Selection/Accent**: `#bd93f9`
+- **Success Green**: `#50fa7b`
+- **Warning Orange**: `#ffb86c`
+- **Error Red**: `#ff5555`
+- **Muted Blue**: `#6272a4`
+
 ---
 
 ## Version History
+
+**v1.1.0** - Dracula Theme Added
+- Added Dracula theme variant
+- Updated documentation and specifications
 
 **v1.0.0** - Initial Release
 - Professional dark theme for JetBrains IDEs

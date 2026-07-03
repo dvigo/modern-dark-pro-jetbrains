@@ -2,7 +2,7 @@
 
 ## Overview
 
-Modern Dark Pro offers two carefully crafted color palettes optimized for JetBrains IDEs. Both variants provide excellent readability and minimal eye strain during extended coding sessions.
+Modern Dark Pro offers three carefully crafted color palettes optimized for JetBrains IDEs. All variants provide excellent readability and minimal eye strain during extended coding sessions.
 
 ## Modern Dark Pro - Monokai
 
@@ -72,6 +72,40 @@ A sophisticated, subtle color scheme optimized for extended coding sessions in l
 | Muted Red | `#da3633` | 218, 54, 51 | Errors, deleted lines |
 | Muted Purple | `#6e40aa` | 110, 64, 170 | Special elements |
 
+## Modern Dark Pro - Dracula
+
+A beautiful, contrast-rich color scheme inspired by the official Dracula Theme.
+
+### Background & Text Colors
+
+| Element | Hex Color | RGB | Purpose |
+|---------|-----------|-----|---------|
+| Background | `#282a36` | 40, 42, 54 | Primary editor background |
+| Foreground | `#f8f8f2` | 248, 248, 242 | Default text color |
+| Line Highlight | `#343746` | 52, 55, 70 | Current line background |
+
+### Syntax Colors
+
+| Element | Hex Color | RGB | Purpose |
+|---------|-----------|-----|---------|
+| Keywords | `#ff79c6` | 255, 121, 198 | Language keywords (if, while, etc.) |
+| Strings | `#f1fa8c` | 241, 250, 140 | String literals |
+| Numbers | `#bd93f9` | 189, 147, 249 | Numeric literals |
+| Functions | `#50fa7b` | 80, 250, 123 | Function/method names |
+| Classes | `#8be9fd` | 139, 233, 253 | Class definitions |
+| Constants | `#bd93f9` | 189, 147, 249 | Constants and static fields |
+| Comments | `#6272a4` | 98, 114, 164 | Code comments |
+
+### UI Colors
+
+| Element | Hex Color | RGB | Purpose |
+|---------|-----------|-----|---------|
+| Purple Accent | `#bd93f9` | 189, 147, 249 | Selection, highlights, focus |
+| Success Green | `#50fa7b` | 80, 250, 123 | Added lines, success states |
+| Warning Orange | `#ffb86c` | 255, 184, 108 | Modified lines, warnings |
+| Error Red | `#ff5555` | 255, 85, 85 | Errors, deleted lines |
+| Muted Blue | `#6272a4` | 98, 114, 164 | Special elements |
+
 ## Color Philosophy
 
 Both palettes follow these design principles:
@@ -96,40 +130,47 @@ Both palettes follow these design principles:
 - **Reduced Saturation**: Gentler on extended viewing
 - **Best for**: Extended coding sessions, night development
 
+### Dracula Variant
+
+- **Contrast-Rich Pastels**: Beautiful, modern pastel colors
+- **Classic Dracula Aesthetic**: Faithful to the official Dracula palette
+- **High Legibility**: High contrast syntax elements against dark background
+- **Best for**: Developers who love the Dracula ecosystem and want maximum clarity
+
 ## Language-Specific Color Assignments
 
 ### Java / Kotlin
 
-| Element | Color | Hex |
-|---------|-------|-----|
-| Keywords (public, class, etc.) | Keywords | `#f92672` / `#ff7b72` |
-| Class names | Classes | `#79b8ff` / `#1f6feb` |
-| Methods | Functions | `#e1a6f2` / `#a371f7` |
-| Variables | Default | `#d4d4d4` / `#c9d1d9` |
-| Strings | Strings | `#e6db74` / `#a5d6ff` |
-| Numbers | Numbers | `#ae81ff` / `#79c0ff` |
+| Element | Color | Hex (Monokai / Night / Dracula) |
+|---------|-------|---------------------------------|
+| Keywords (public, class, etc.) | Keywords | `#f92672` / `#ff7b72` / `#ff79c6` |
+| Class names | Classes | `#79b8ff` / `#1f6feb` / `#8be9fd` |
+| Methods | Functions | `#e1a6f2` / `#a371f7` / `#50fa7b` |
+| Variables | Default | `#d4d4d4` / `#c9d1d9` / `#f8f8f2` |
+| Strings | Strings | `#e6db74` / `#a5d6ff` / `#f1fa8c` |
+| Numbers | Numbers | `#ae81ff` / `#79c0ff` / `#bd93f9` |
 
 ### Python
 
-| Element | Color | Hex |
-|---------|-------|-----|
-| Keywords (def, class, if, etc.) | Keywords | `#f92672` / `#ff7b72` |
-| Class definitions | Classes | `#79b8ff` / `#1f6feb` |
-| Function definitions | Functions | `#e1a6f2` / `#a371f7` |
-| Built-in functions | Functions | `#e1a6f2` / `#a371f7` |
-| Strings | Strings | `#e6db74` / `#a5d6ff` |
-| Numbers | Numbers | `#ae81ff` / `#79c0ff` |
+| Element | Color | Hex (Monokai / Night / Dracula) |
+|---------|-------|---------------------------------|
+| Keywords (def, class, if, etc.) | Keywords | `#f92672` / `#ff7b72` / `#ff79c6` |
+| Class definitions | Classes | `#79b8ff` / `#1f6feb` / `#8be9fd` |
+| Function definitions | Functions | `#e1a6f2` / `#a371f7` / `#50fa7b` |
+| Built-in functions | Functions | `#e1a6f2` / `#a371f7` / `#50fa7b` |
+| Strings | Strings | `#e6db74` / `#a5d6ff` / `#f1fa8c` |
+| Numbers | Numbers | `#ae81ff` / `#79c0ff` / `#bd93f9` |
 
 ### JavaScript / TypeScript
 
-| Element | Color | Hex |
-|---------|-------|-----|
-| Keywords | Keywords | `#f92672` / `#ff7b72` |
-| Class/Interface names | Classes | `#79b8ff` / `#1f6feb` |
-| Function names | Functions | `#e1a6f2` / `#a371f7` |
-| Template strings | Strings | `#e6db74` / `#a5d6ff` |
-| Numbers | Numbers | `#ae81ff` / `#79c0ff` |
-| JSX tags | Keywords | `#f92672` / `#ff7b72` |
+| Element | Color | Hex (Monokai / Night / Dracula) |
+|---------|-------|---------------------------------|
+| Keywords | Keywords | `#f92672` / `#ff7b72` / `#ff79c6` |
+| Class/Interface names | Classes | `#79b8ff` / `#1f6feb` / `#8be9fd` |
+| Function names | Functions | `#e1a6f2` / `#a371f7` / `#50fa7b` |
+| Template strings | Strings | `#e6db74` / `#a5d6ff` / `#f1fa8c` |
+| Numbers | Numbers | `#ae81ff` / `#79c0ff` / `#bd93f9` |
+| JSX tags | Keywords | `#f92672` / `#ff7b72` / `#ff79c6` |
 
 ## Customization
 

@@ -5,6 +5,7 @@
 ```
 modern-dark-pro-jetbrains/
 ├── colors/                          # Theme color scheme files
+│   ├── Modern_Dark_Pro_Dracula.xml
 │   ├── Modern_Dark_Pro_Monokai.xml
 │   └── Modern_Dark_Pro_Night.xml
 ├── README.md                        # Project documentation
@@ -153,6 +154,18 @@ Muted Green:           #238636
 Muted Orange:          #8b7500
 Muted Red:             #da3633
 Muted Purple:          #6e40aa
+```
+
+### Modern Dark Pro - Dracula
+
+```
+Primary Background:    #282a36
+Primary Foreground:    #f8f8f2
+Selection/Accent:      #bd93f9
+Success Green:         #50fa7b
+Warning Orange:        #ffb86c
+Error Red:             #ff5555
+Muted Blue/Comments:   #6272a4
 ```
 
 ## Git Workflow

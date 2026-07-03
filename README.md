@@ -1,13 +1,13 @@
 # 🎨 Modern Dark Pro for JetBrains
 
-A professional JetBrains IDE theme designed for developers who value elegance, readability, and extended coding sessions. Featuring two carefully crafted dark variants with optimized colors for perfect contrast and minimal eye strain.
+A professional JetBrains IDE theme designed for developers who value elegance, readability, and extended coding sessions. Featuring three carefully crafted dark variants with optimized colors for perfect contrast and minimal eye strain.
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/dvigo/modern-dark-pro-jetbrains?style=social)](https://github.com/dvigo/modern-dark-pro-jetbrains)
 
 ## ✨ Features
 
-- **🌙 Two Dark Variants**: Monokai and Night themes for different preferences
+- **🌙 Three Dark Variants**: Monokai, Night, and Dracula themes for different preferences
 - **🎨 Professional Design**: Clean, modern aesthetic suitable for any development style
 - **👁️ Eye-Friendly**: Optimized colors to reduce strain during extended sessions
 - **♿ Accessible**: High contrast ratios for excellent readability
@@ -27,6 +27,16 @@ Classic Monokai color scheme with modern refinements. Perfect for developers fam
 
 ### Modern Dark Pro - Night
 Sleek dark theme optimized for low-light environments. Subtle, professional color palette designed for extended work sessions with minimal eye strain.
+
+### Modern Dark Pro - Dracula
+A beautiful, contrast-rich theme inspired by the official Dracula Theme. Featuring vibrant pastel colors on a sleek, dark background for maximum readability and a premium developer aesthetic.
+
+**Key Colors:**
+- Background: `#282a36`
+- Foreground: `#f8f8f2`
+- Keyword: `#ff79c6`
+- Function: `#50fa7b`
+- Constant/Number: `#bd93f9`
 
 ## 📦 Installation
 
@@ -57,6 +67,7 @@ Sleek dark theme optimized for low-light environments. Subtle, professional colo
 4. **Select** either:
    - `Modern Dark Pro - Monokai`
    - `Modern Dark Pro - Night`
+   - `Modern Dark Pro - Dracula`
 
 ## 🎯 Supported IDEs
 
@@ -97,6 +108,10 @@ For more details, see [CONTRIBUTING.md](CONTRIBUTING.md)
 ## 📝 Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes in each version.
+
+### v1.1.0
+- Added Dracula theme variant
+- Updated documentation and color palette specifications
 
 ### v1.0.0 (Initial Release)
 - Professional dark theme with two variants
@@ -139,4 +154,4 @@ If you like this theme, please consider:
 - 💬 Leaving feedback or suggestions
 - 🐛 Reporting issues or suggesting improvements
 
-**Modern Dark Pro v1.0.0** - Professional Theme for JetBrains IDEs
+**Modern Dark Pro v1.1.0** - Professional Theme for JetBrains IDEs
