@@ -11,6 +11,8 @@
 
   <depends>com.intellij.modules.platform</depends>
 
+  <idea-version since-build="201"/>
+
   <extensions defaultExtensionNs="com.intellij">
     <bundledColorScheme path="/colors/Modern_Dark_Pro_Monokai.xml"/>
     <bundledColorScheme path="/colors/Modern_Dark_Pro_Night.xml"/>
