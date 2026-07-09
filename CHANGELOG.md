@@ -2,6 +2,11 @@
 
 All notable changes to the "Modern Dark Pro for JetBrains" theme will be documented in this file.
 
+## [1.1.3] - 2026-07-09
+
+### Changed
+- Replaced the plugin logo with a flat, modern, and transparent M icon matching the VS Code theme.
+
 ## [1.1.2] - 2026-07-09
 
 ### Added

@@ -173,4 +173,4 @@ If you like this theme, please consider:
 - 💬 Leaving feedback or suggestions
 - 🐛 Reporting issues or suggesting improvements
 
-**Modern Dark Pro v1.1.2** - Professional Theme for JetBrains IDEs
+**Modern Dark Pro v1.1.3** - Professional Theme for JetBrains IDEs
