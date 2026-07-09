@@ -1,5 +1,10 @@
 # 🎨 Modern Dark Pro for JetBrains
 
+<div align="center">
+  <img src="images/icon.png" alt="Modern Dark Pro Icon" width="150" height="150"/>
+</div>
+
+
 A professional JetBrains IDE theme designed for developers who value elegance, readability, and extended coding sessions. Featuring three carefully crafted dark variants with optimized colors for perfect contrast and minimal eye strain.
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
