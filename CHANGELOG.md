@@ -2,6 +2,11 @@
 
 All notable changes to the "Modern Dark Pro for JetBrains" theme will be documented in this file.
 
+## [1.1.2] - 2026-07-09
+
+### Added
+- Added official Modern Dark Pro logo as plugin icon.
+
 ## [1.1.1] - 2026-07-09
 
 ### Added
