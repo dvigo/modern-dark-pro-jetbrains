@@ -38,6 +38,20 @@ A beautiful, contrast-rich theme inspired by the official Dracula Theme. Featuri
 - Function: `#50fa7b`
 - Constant/Number: `#bd93f9`
 
+## 🖼️ Screenshots
+
+### Monokai Variant
+![Modern Dark Pro Monokai (JS)](images/modern-dark-monokai_example_js.png)
+![Modern Dark Pro Monokai (Python)](images/modern-dark-monokai_example_py.png)
+
+### Night Variant
+![Modern Dark Pro Night (JS)](images/modern-dark-night_example_js.png)
+![Modern Dark Pro Night (Python)](images/modern-dark-night_example_py.png)
+
+### Dracula Variant
+![Modern Dark Pro Dracula (JS)](images/modern-dark-dracula_example_js.png)
+![Modern Dark Pro Dracula (Python)](images/modern-dark-dracula_example_py.png)
+
 ## 📦 Installation
 
 ### From JetBrains Marketplace
