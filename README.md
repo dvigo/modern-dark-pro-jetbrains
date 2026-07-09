@@ -168,4 +168,4 @@ If you like this theme, please consider:
 - 💬 Leaving feedback or suggestions
 - 🐛 Reporting issues or suggesting improvements
 
-**Modern Dark Pro v1.1.0** - Professional Theme for JetBrains IDEs
+**Modern Dark Pro v1.1.1** - Professional Theme for JetBrains IDEs
