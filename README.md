@@ -144,7 +144,7 @@ See [LICENSE](LICENSE) file for details.
 **dvigo**
 
 - GitHub: [@dvigo](https://github.com/dvigo)
-- Marketplace: [dvigo](https://plugins.jetbrains.com/author/dvigo)
+- Marketplace: [dvigodev](https://plugins.jetbrains.com/vendor/dvigodev)
 
 ## 🙏 Acknowledgments
 
