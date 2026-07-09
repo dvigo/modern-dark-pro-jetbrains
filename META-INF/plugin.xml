@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.dvigo.modern-dark-pro</id>
+  <name>Modern Dark Pro</name>
+  <version>1.1.1</version>
+  <vendor email="dvigo@example.com" url="https://github.com/dvigo">dvigo</vendor>
+
+  <description><![CDATA[
+    A professional JetBrains IDE theme designed for developers who value elegance, readability, and extended coding sessions.<br>
+    Features three carefully crafted dark variants with optimized colors for perfect contrast and minimal eye strain.
+  ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/Modern_Dark_Pro_Monokai.xml"/>
+    <bundledColorScheme path="/colors/Modern_Dark_Pro_Night.xml"/>
+    <bundledColorScheme path="/colors/Modern_Dark_Pro_Dracula.xml"/>
+  </extensions>
+</idea-plugin>
