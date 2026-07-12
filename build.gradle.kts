@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.17.4"
+    id("org.jetbrains.intellij.platform") version "2.0.1"
 }
 
 group = "com.dvigo"
@@ -8,17 +8,22 @@ version = "1.2.0"
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
-intellij {
-    version.set("2023.1.5")
-    type.set("IC") 
-    updateSinceUntilBuild.set(false)
+dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity("2023.1.5")
+    }
 }
 
-tasks {
-    patchPluginXml {
-        sinceBuild.set("201")
-        untilBuild.set("")
+intellijPlatform {
+    pluginConfiguration {
+        ideaVersion {
+            sinceBuild = "201"
+            untilBuild = ""
+        }
     }
 }
