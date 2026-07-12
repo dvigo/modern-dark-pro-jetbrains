@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.dvigo.modern-dark-pro</id>
   <name>Modern Dark Pro</name>
-  <version>1.1.4</version>
+  <version>1.2.0</version>
   <vendor email="dvigo@example.com" url="https://github.com/dvigo">dvigo</vendor>
 
   <description><![CDATA[
@@ -14,8 +14,8 @@
   <idea-version since-build="201"/>
 
   <extensions defaultExtensionNs="com.intellij">
-    <bundledColorScheme path="/colors/Modern_Dark_Pro_Monokai.xml"/>
-    <bundledColorScheme path="/colors/Modern_Dark_Pro_Night.xml"/>
-    <bundledColorScheme path="/colors/Modern_Dark_Pro_Dracula.xml"/>
+    <themeProvider id="com.dvigo.modern-dark-pro.monokai" path="/theme/Modern_Dark_Pro_Monokai.theme.json"/>
+    <themeProvider id="com.dvigo.modern-dark-pro.night" path="/theme/Modern_Dark_Pro_Night.theme.json"/>
+    <themeProvider id="com.dvigo.modern-dark-pro.dracula" path="/theme/Modern_Dark_Pro_Dracula.theme.json"/>
   </extensions>
 </idea-plugin>

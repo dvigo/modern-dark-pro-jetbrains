@@ -1,0 +1,18 @@
+{
+  "name": "Modern Dark Pro - Monokai",
+  "dark": true,
+  "author": "dvigo",
+  "editorScheme": "/colors/Modern_Dark_Pro_Monokai.xml",
+  "colors": {
+    "accentColor": "#58a6ff",
+    "selectionBackground": "#3c3d37"
+  },
+  "ui": {
+    "*": {
+      "background": "#272822",
+      "foreground": "#f8f8f2",
+      "selectionBackground": "#3c3d37",
+      "selectionForeground": "#f8f8f2"
+    }
+  }
+}

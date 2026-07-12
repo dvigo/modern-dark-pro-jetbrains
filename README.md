@@ -70,13 +70,11 @@ A beautiful, contrast-rich theme inspired by the official Dracula Theme. Featuri
 
 ### Manual Installation
 
-1. Download the theme files from the [releases page](https://github.com/dvigo/modern-dark-pro-jetbrains/releases)
-2. Place the theme files in your JetBrains config directory:
-   - **macOS**: `~/Library/Application Support/JetBrains/{IDE}/colors/`
-   - **Linux**: `~/.config/JetBrains/{IDE}/colors/`
-   - **Windows**: `%APPDATA%\JetBrains\{IDE}\colors\`
-3. Restart your IDE
-4. Go to **Settings/Preferences → Appearance → Theme** and select the theme
+1. Download the plugin `.zip` file from the [releases page](https://github.com/dvigo/modern-dark-pro-jetbrains/releases)
+2. Open your JetBrains IDE
+3. Go to **Settings/Preferences → Plugins**, click the gear icon ⚙️, and select **Install Plugin from Disk...**
+4. Select the downloaded `.zip` file and restart your IDE
+5. Go to **Settings/Preferences → Appearance → Theme** and select the theme
 
 ## 🚀 Quick Start
 
@@ -173,4 +171,4 @@ If you like this theme, please consider:
 - 💬 Leaving feedback or suggestions
 - 🐛 Reporting issues or suggesting improvements
 
-**Modern Dark Pro v1.1.4** - Professional Theme for JetBrains IDEs
+**Modern Dark Pro v1.2.0** - Professional Theme for JetBrains IDEs

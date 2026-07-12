@@ -2,6 +2,11 @@
 
 All notable changes to the "Modern Dark Pro for JetBrains" theme will be documented in this file.
 
+## [1.2.0] - 2026-07-12
+
+### Added
+- Upgraded to a full IDE UI Theme, now skinning the entire JetBrains interface, not just editor syntax colors.
+
 ## [1.1.4] - 2026-07-09
 
 ### Changed
@@ -80,6 +85,10 @@ All notable changes to the "Modern Dark Pro for JetBrains" theme will be documen
 ---
 
 ## Version History
+
+**v1.2.0** - Full IDE Theme Upgrade
+- Project migrated to a full UI Theme plugin.
+- Added Gradle build system and `.theme.json` configuration.
 
 **v1.1.0** - Dracula Theme Added
 - Added Dracula theme variant

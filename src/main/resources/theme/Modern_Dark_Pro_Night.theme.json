@@ -1,0 +1,18 @@
+{
+  "name": "Modern Dark Pro - Night",
+  "dark": true,
+  "author": "dvigo",
+  "editorScheme": "/colors/Modern_Dark_Pro_Night.xml",
+  "colors": {
+    "accentColor": "#7aa2f7",
+    "selectionBackground": "#283457"
+  },
+  "ui": {
+    "*": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5",
+      "selectionBackground": "#283457",
+      "selectionForeground": "#c0caf5"
+    }
+  }
+}

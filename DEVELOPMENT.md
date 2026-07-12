@@ -4,10 +4,11 @@
 
 ```
 modern-dark-pro-jetbrains/
-├── colors/                          # Theme color scheme files
-│   ├── Modern_Dark_Pro_Dracula.xml
-│   ├── Modern_Dark_Pro_Monokai.xml
-│   └── Modern_Dark_Pro_Night.xml
+├── src/main/resources/
+│   ├── colors/                      # Editor syntax color scheme files
+│   ├── theme/                       # IDE UI theme definition files
+│   └── META-INF/                    # Plugin configuration
+├── build.gradle.kts                 # Gradle build configuration
 ├── README.md                        # Project documentation
 ├── CHANGELOG.md                     # Version history
 ├── CONTRIBUTING.md                  # Contributing guidelines
@@ -75,26 +76,21 @@ Key syntax highlighting attributes:
 
 ## Installation for Development
 
-### macOS
+### Using Gradle (Recommended)
 
+1. Open the project in IntelliJ IDEA
+2. Run the Gradle task `runIde` to start a sandbox IDE with the theme installed:
+   ```bash
+   ./gradlew runIde
+   ```
+
+### Building the Plugin
+
+To generate the `.zip` file for publication:
 ```bash
-mkdir -p ~/Library/Application\ Support/JetBrains/IntelliJIdea2024.1/colors/
-cp colors/*.xml ~/Library/Application\ Support/JetBrains/IntelliJIdea2024.1/colors/
+./gradlew buildPlugin
 ```
-
-### Linux
-
-```bash
-mkdir -p ~/.config/JetBrains/IntelliJIdea2024.1/colors/
-cp colors/*.xml ~/.config/JetBrains/IntelliJIdea2024.1/colors/
-```
-
-### Windows
-
-```cmd
-mkdir %APPDATA%\JetBrains\IntelliJIdea2024.1\colors
-copy colors\*.xml %APPDATA%\JetBrains\IntelliJIdea2024.1\colors\
-```
+The output will be in `build/distributions/`.
 
 ## Testing
 
