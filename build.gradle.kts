@@ -16,6 +16,7 @@ repositories {
 dependencies {
     intellijPlatform {
         intellijIdeaCommunity("2023.1.5")
+        instrumentationTools()
     }
 }
 
